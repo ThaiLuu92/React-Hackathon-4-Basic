@@ -5,6 +5,7 @@
 }
 
 .App {
+  height: 100vh;
   padding: 50px;
   display: flex;
   flex-direction: column;
@@ -105,4 +106,15 @@
   width: 100%;
     background-color: #B2D7EF;
    border: none;
+}
+#btn-dark {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#btn-dark:hover {
+ background-color: #333;
+ color: white;
 }
